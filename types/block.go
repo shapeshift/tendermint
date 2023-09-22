@@ -10,16 +10,16 @@ import (
 	"github.com/gogo/protobuf/proto"
 	gogotypes "github.com/gogo/protobuf/types"
 
-	"github.com/tendermint/tendermint/crypto"
-	"github.com/tendermint/tendermint/crypto/merkle"
-	"github.com/tendermint/tendermint/crypto/tmhash"
-	"github.com/tendermint/tendermint/libs/bits"
-	tmbytes "github.com/tendermint/tendermint/libs/bytes"
-	tmmath "github.com/tendermint/tendermint/libs/math"
-	tmsync "github.com/tendermint/tendermint/libs/sync"
-	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
-	tmversion "github.com/tendermint/tendermint/proto/tendermint/version"
-	"github.com/tendermint/tendermint/version"
+	"github.com/shapeshift/tendermint/crypto"
+	"github.com/shapeshift/tendermint/crypto/merkle"
+	"github.com/shapeshift/tendermint/crypto/tmhash"
+	"github.com/shapeshift/tendermint/libs/bits"
+	tmbytes "github.com/shapeshift/tendermint/libs/bytes"
+	tmmath "github.com/shapeshift/tendermint/libs/math"
+	tmsync "github.com/shapeshift/tendermint/libs/sync"
+	tmproto "github.com/shapeshift/tendermint/proto/tendermint/types"
+	tmversion "github.com/shapeshift/tendermint/proto/tendermint/version"
+	"github.com/shapeshift/tendermint/version"
 )
 
 const (
@@ -321,7 +321,7 @@ func MaxDataBytesNoEvidence(maxBytes int64, valsCount int) int64 {
 // NOTE: changes to the Header should be duplicated in:
 // - header.Hash()
 // - abci.Header
-// - https://github.com/tendermint/tendermint/blob/v0.34.x/spec/blockchain/blockchain.md
+// - https://github.com/shapeshift/tendermint/blob/v0.34.x/spec/blockchain/blockchain.md
 type Header struct {
 	// basic block info
 	Version tmversion.Consensus `json:"version"`

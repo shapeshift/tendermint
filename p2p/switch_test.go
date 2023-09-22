@@ -19,12 +19,12 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/tendermint/tendermint/config"
-	"github.com/tendermint/tendermint/crypto/ed25519"
-	"github.com/tendermint/tendermint/libs/log"
-	tmsync "github.com/tendermint/tendermint/libs/sync"
-	"github.com/tendermint/tendermint/p2p/conn"
-	p2pproto "github.com/tendermint/tendermint/proto/tendermint/p2p"
+	"github.com/shapeshift/tendermint/config"
+	"github.com/shapeshift/tendermint/crypto/ed25519"
+	"github.com/shapeshift/tendermint/libs/log"
+	tmsync "github.com/shapeshift/tendermint/libs/sync"
+	"github.com/shapeshift/tendermint/p2p/conn"
+	p2pproto "github.com/shapeshift/tendermint/proto/tendermint/p2p"
 )
 
 var cfg *config.P2PConfig

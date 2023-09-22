@@ -1,9 +1,9 @@
 package abcicli
 
 import (
-	types "github.com/tendermint/tendermint/abci/types"
-	"github.com/tendermint/tendermint/libs/service"
-	tmsync "github.com/tendermint/tendermint/libs/sync"
+	types "github.com/shapeshift/tendermint/abci/types"
+	"github.com/shapeshift/tendermint/libs/service"
+	tmsync "github.com/shapeshift/tendermint/libs/sync"
 )
 
 var _ Client = (*localClient)(nil)

@@ -10,13 +10,13 @@ import (
 
 	"github.com/creachadair/taskgroup"
 
-	abci "github.com/tendermint/tendermint/abci/types"
-	"github.com/tendermint/tendermint/config"
-	"github.com/tendermint/tendermint/libs/clist"
-	"github.com/tendermint/tendermint/libs/log"
-	"github.com/tendermint/tendermint/mempool"
-	"github.com/tendermint/tendermint/proxy"
-	"github.com/tendermint/tendermint/types"
+	abci "github.com/shapeshift/tendermint/abci/types"
+	"github.com/shapeshift/tendermint/config"
+	"github.com/shapeshift/tendermint/libs/clist"
+	"github.com/shapeshift/tendermint/libs/log"
+	"github.com/shapeshift/tendermint/mempool"
+	"github.com/shapeshift/tendermint/proxy"
+	"github.com/shapeshift/tendermint/types"
 )
 
 var _ mempool.Mempool = (*TxMempool)(nil)

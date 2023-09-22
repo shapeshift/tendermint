@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/tendermint/tendermint/abci/types"
-	tmnet "github.com/tendermint/tendermint/libs/net"
+	"github.com/shapeshift/tendermint/abci/types"
+	tmnet "github.com/shapeshift/tendermint/libs/net"
 )
 
 func main() {

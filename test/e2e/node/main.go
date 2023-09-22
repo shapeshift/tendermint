@@ -13,25 +13,25 @@ import (
 
 	"github.com/spf13/viper"
 
-	"github.com/tendermint/tendermint/abci/server"
-	"github.com/tendermint/tendermint/config"
-	"github.com/tendermint/tendermint/crypto/ed25519"
-	tmflags "github.com/tendermint/tendermint/libs/cli/flags"
-	"github.com/tendermint/tendermint/libs/log"
-	tmnet "github.com/tendermint/tendermint/libs/net"
-	"github.com/tendermint/tendermint/light"
-	lproxy "github.com/tendermint/tendermint/light/proxy"
-	lrpc "github.com/tendermint/tendermint/light/rpc"
-	dbs "github.com/tendermint/tendermint/light/store/db"
-	"github.com/tendermint/tendermint/node"
-	"github.com/tendermint/tendermint/p2p"
-	"github.com/tendermint/tendermint/privval"
-	"github.com/tendermint/tendermint/proxy"
-	rpcserver "github.com/tendermint/tendermint/rpc/jsonrpc/server"
-	"github.com/tendermint/tendermint/test/e2e/app"
-	e2e "github.com/tendermint/tendermint/test/e2e/pkg"
-	mcs "github.com/tendermint/tendermint/test/maverick/consensus"
-	maverick "github.com/tendermint/tendermint/test/maverick/node"
+	"github.com/shapeshift/tendermint/abci/server"
+	"github.com/shapeshift/tendermint/config"
+	"github.com/shapeshift/tendermint/crypto/ed25519"
+	tmflags "github.com/shapeshift/tendermint/libs/cli/flags"
+	"github.com/shapeshift/tendermint/libs/log"
+	tmnet "github.com/shapeshift/tendermint/libs/net"
+	"github.com/shapeshift/tendermint/light"
+	lproxy "github.com/shapeshift/tendermint/light/proxy"
+	lrpc "github.com/shapeshift/tendermint/light/rpc"
+	dbs "github.com/shapeshift/tendermint/light/store/db"
+	"github.com/shapeshift/tendermint/node"
+	"github.com/shapeshift/tendermint/p2p"
+	"github.com/shapeshift/tendermint/privval"
+	"github.com/shapeshift/tendermint/proxy"
+	rpcserver "github.com/shapeshift/tendermint/rpc/jsonrpc/server"
+	"github.com/shapeshift/tendermint/test/e2e/app"
+	e2e "github.com/shapeshift/tendermint/test/e2e/pkg"
+	mcs "github.com/shapeshift/tendermint/test/maverick/consensus"
+	maverick "github.com/shapeshift/tendermint/test/maverick/node"
 )
 
 var logger = log.NewTMLogger(log.NewSyncWriter(os.Stdout))
@@ -182,7 +182,7 @@ func startLightClient(cfg *Config) error {
 	rpccfg.MaxOpenConnections = tmcfg.RPC.MaxOpenConnections
 	// If necessary adjust global WriteTimeout to ensure it's greater than
 	// TimeoutBroadcastTxCommit.
-	// See https://github.com/tendermint/tendermint/issues/3435
+	// See https://github.com/shapeshift/tendermint/issues/3435
 	if rpccfg.WriteTimeout <= tmcfg.RPC.TimeoutBroadcastTxCommit {
 		rpccfg.WriteTimeout = tmcfg.RPC.TimeoutBroadcastTxCommit + 1*time.Second
 	}

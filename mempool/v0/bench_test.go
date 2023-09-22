@@ -5,9 +5,9 @@ import (
 	"sync/atomic"
 	"testing"
 
-	"github.com/tendermint/tendermint/abci/example/kvstore"
-	"github.com/tendermint/tendermint/mempool"
-	"github.com/tendermint/tendermint/proxy"
+	"github.com/shapeshift/tendermint/abci/example/kvstore"
+	"github.com/shapeshift/tendermint/mempool"
+	"github.com/shapeshift/tendermint/proxy"
 )
 
 func BenchmarkReap(b *testing.B) {

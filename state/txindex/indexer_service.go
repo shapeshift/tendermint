@@ -3,9 +3,9 @@ package txindex
 import (
 	"context"
 
-	"github.com/tendermint/tendermint/libs/service"
-	"github.com/tendermint/tendermint/state/indexer"
-	"github.com/tendermint/tendermint/types"
+	"github.com/shapeshift/tendermint/libs/service"
+	"github.com/shapeshift/tendermint/state/indexer"
+	"github.com/shapeshift/tendermint/types"
 )
 
 // XXX/TODO: These types should be moved to the indexer package.

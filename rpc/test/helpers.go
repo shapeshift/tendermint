@@ -8,18 +8,18 @@ import (
 	"strings"
 	"time"
 
-	abci "github.com/tendermint/tendermint/abci/types"
-	"github.com/tendermint/tendermint/libs/log"
+	abci "github.com/shapeshift/tendermint/abci/types"
+	"github.com/shapeshift/tendermint/libs/log"
 
-	cfg "github.com/tendermint/tendermint/config"
-	tmnet "github.com/tendermint/tendermint/libs/net"
-	nm "github.com/tendermint/tendermint/node"
-	"github.com/tendermint/tendermint/p2p"
-	"github.com/tendermint/tendermint/privval"
-	"github.com/tendermint/tendermint/proxy"
-	ctypes "github.com/tendermint/tendermint/rpc/core/types"
-	core_grpc "github.com/tendermint/tendermint/rpc/grpc"
-	rpcclient "github.com/tendermint/tendermint/rpc/jsonrpc/client"
+	cfg "github.com/shapeshift/tendermint/config"
+	tmnet "github.com/shapeshift/tendermint/libs/net"
+	nm "github.com/shapeshift/tendermint/node"
+	"github.com/shapeshift/tendermint/p2p"
+	"github.com/shapeshift/tendermint/privval"
+	"github.com/shapeshift/tendermint/proxy"
+	ctypes "github.com/shapeshift/tendermint/rpc/core/types"
+	core_grpc "github.com/shapeshift/tendermint/rpc/grpc"
+	rpcclient "github.com/shapeshift/tendermint/rpc/jsonrpc/client"
 )
 
 // Options helps with specifying some parameters for our RPC testing for greater

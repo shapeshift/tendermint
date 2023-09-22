@@ -6,7 +6,7 @@ import (
 
 	"github.com/google/uuid"
 
-	"github.com/tendermint/tendermint/test/loadtime/payload"
+	"github.com/shapeshift/tendermint/test/loadtime/payload"
 )
 
 const payloadSizeTarget = 1024 // 1kb

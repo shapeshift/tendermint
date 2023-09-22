@@ -6,16 +6,16 @@ import (
 	"sync"
 	"sync/atomic"
 
-	abci "github.com/tendermint/tendermint/abci/types"
-	"github.com/tendermint/tendermint/config"
-	"github.com/tendermint/tendermint/libs/clist"
-	"github.com/tendermint/tendermint/libs/log"
-	tmmath "github.com/tendermint/tendermint/libs/math"
-	tmsync "github.com/tendermint/tendermint/libs/sync"
-	"github.com/tendermint/tendermint/mempool"
-	"github.com/tendermint/tendermint/p2p"
-	"github.com/tendermint/tendermint/proxy"
-	"github.com/tendermint/tendermint/types"
+	abci "github.com/shapeshift/tendermint/abci/types"
+	"github.com/shapeshift/tendermint/config"
+	"github.com/shapeshift/tendermint/libs/clist"
+	"github.com/shapeshift/tendermint/libs/log"
+	tmmath "github.com/shapeshift/tendermint/libs/math"
+	tmsync "github.com/shapeshift/tendermint/libs/sync"
+	"github.com/shapeshift/tendermint/mempool"
+	"github.com/shapeshift/tendermint/p2p"
+	"github.com/shapeshift/tendermint/proxy"
+	"github.com/shapeshift/tendermint/types"
 )
 
 // CListMempool is an ordered in-memory pool for transactions before they are
@@ -612,7 +612,7 @@ func (mem *CListMempool) Update(
 		//   101 -> 102
 		// Mempool after:
 		//   100
-		// https://github.com/tendermint/tendermint/issues/3322.
+		// https://github.com/shapeshift/tendermint/issues/3322.
 		if e, ok := mem.txsMap.Load(tx.Key()); ok {
 			mem.removeTx(tx, e.(*clist.CElement), false)
 		}

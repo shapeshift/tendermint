@@ -6,11 +6,11 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/tendermint/tendermint/abci/example/kvstore"
-	abci "github.com/tendermint/tendermint/abci/types"
-	"github.com/tendermint/tendermint/mempool"
-	"github.com/tendermint/tendermint/proxy"
-	"github.com/tendermint/tendermint/types"
+	"github.com/shapeshift/tendermint/abci/example/kvstore"
+	abci "github.com/shapeshift/tendermint/abci/types"
+	"github.com/shapeshift/tendermint/mempool"
+	"github.com/shapeshift/tendermint/proxy"
+	"github.com/shapeshift/tendermint/types"
 )
 
 func TestCacheAfterUpdate(t *testing.T) {

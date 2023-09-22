@@ -4,10 +4,10 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/tendermint/tendermint/abci/types"
-	"github.com/tendermint/tendermint/libs/log"
-	tmpubsub "github.com/tendermint/tendermint/libs/pubsub"
-	"github.com/tendermint/tendermint/libs/service"
+	"github.com/shapeshift/tendermint/abci/types"
+	"github.com/shapeshift/tendermint/libs/log"
+	tmpubsub "github.com/shapeshift/tendermint/libs/pubsub"
+	"github.com/shapeshift/tendermint/libs/service"
 )
 
 const defaultCapacity = 0

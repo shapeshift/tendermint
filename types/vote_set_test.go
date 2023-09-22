@@ -7,10 +7,10 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/tendermint/tendermint/crypto"
-	tmrand "github.com/tendermint/tendermint/libs/rand"
-	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
-	tmtime "github.com/tendermint/tendermint/types/time"
+	"github.com/shapeshift/tendermint/crypto"
+	tmrand "github.com/shapeshift/tendermint/libs/rand"
+	tmproto "github.com/shapeshift/tendermint/proto/tendermint/types"
+	tmtime "github.com/shapeshift/tendermint/types/time"
 )
 
 func TestVoteSet_AddVote_Good(t *testing.T) {

@@ -10,13 +10,13 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 
-	cfg "github.com/tendermint/tendermint/config"
-	"github.com/tendermint/tendermint/libs/bytes"
-	tmrand "github.com/tendermint/tendermint/libs/rand"
-	"github.com/tendermint/tendermint/p2p"
-	"github.com/tendermint/tendermint/privval"
-	"github.com/tendermint/tendermint/types"
-	tmtime "github.com/tendermint/tendermint/types/time"
+	cfg "github.com/shapeshift/tendermint/config"
+	"github.com/shapeshift/tendermint/libs/bytes"
+	tmrand "github.com/shapeshift/tendermint/libs/rand"
+	"github.com/shapeshift/tendermint/p2p"
+	"github.com/shapeshift/tendermint/privval"
+	"github.com/shapeshift/tendermint/types"
+	tmtime "github.com/shapeshift/tendermint/types/time"
 )
 
 var (

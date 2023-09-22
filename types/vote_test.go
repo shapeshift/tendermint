@@ -8,11 +8,11 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/tendermint/tendermint/crypto"
-	"github.com/tendermint/tendermint/crypto/ed25519"
-	"github.com/tendermint/tendermint/crypto/tmhash"
-	"github.com/tendermint/tendermint/libs/protoio"
-	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
+	"github.com/shapeshift/tendermint/crypto"
+	"github.com/shapeshift/tendermint/crypto/ed25519"
+	"github.com/shapeshift/tendermint/crypto/tmhash"
+	"github.com/shapeshift/tendermint/libs/protoio"
+	tmproto "github.com/shapeshift/tendermint/proto/tendermint/types"
 )
 
 func examplePrevote() *Vote {

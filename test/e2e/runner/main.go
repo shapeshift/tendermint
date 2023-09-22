@@ -9,10 +9,10 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/tendermint/tendermint/libs/log"
-	e2e "github.com/tendermint/tendermint/test/e2e/pkg"
-	"github.com/tendermint/tendermint/test/e2e/pkg/infra"
-	"github.com/tendermint/tendermint/test/e2e/pkg/infra/docker"
+	"github.com/shapeshift/tendermint/libs/log"
+	e2e "github.com/shapeshift/tendermint/test/e2e/pkg"
+	"github.com/shapeshift/tendermint/test/e2e/pkg/infra"
+	"github.com/shapeshift/tendermint/test/e2e/pkg/infra/docker"
 )
 
 var (

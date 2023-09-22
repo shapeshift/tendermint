@@ -3,12 +3,12 @@ package mock
 import (
 	"context"
 
-	abci "github.com/tendermint/tendermint/abci/types"
-	"github.com/tendermint/tendermint/libs/bytes"
-	"github.com/tendermint/tendermint/proxy"
-	"github.com/tendermint/tendermint/rpc/client"
-	ctypes "github.com/tendermint/tendermint/rpc/core/types"
-	"github.com/tendermint/tendermint/types"
+	abci "github.com/shapeshift/tendermint/abci/types"
+	"github.com/shapeshift/tendermint/libs/bytes"
+	"github.com/shapeshift/tendermint/proxy"
+	"github.com/shapeshift/tendermint/rpc/client"
+	ctypes "github.com/shapeshift/tendermint/rpc/core/types"
+	"github.com/shapeshift/tendermint/types"
 )
 
 // ABCIApp will send all abci related request to the named app,

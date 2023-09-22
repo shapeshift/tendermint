@@ -3,8 +3,8 @@ package indexer
 import (
 	"context"
 
-	"github.com/tendermint/tendermint/libs/pubsub/query"
-	"github.com/tendermint/tendermint/types"
+	"github.com/shapeshift/tendermint/libs/pubsub/query"
+	"github.com/shapeshift/tendermint/types"
 )
 
 //go:generate ../../scripts/mockery_generate.sh BlockIndexer

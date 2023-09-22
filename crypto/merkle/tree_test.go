@@ -7,10 +7,10 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	tmrand "github.com/tendermint/tendermint/libs/rand"
-	. "github.com/tendermint/tendermint/libs/test"
+	tmrand "github.com/shapeshift/tendermint/libs/rand"
+	. "github.com/shapeshift/tendermint/libs/test"
 
-	"github.com/tendermint/tendermint/crypto/tmhash"
+	"github.com/shapeshift/tendermint/crypto/tmhash"
 )
 
 type testItem []byte

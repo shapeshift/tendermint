@@ -34,7 +34,7 @@ Complete documentation can be found on the
 ## Releases
 
 Please do not depend on `main` as your production branch. Use
-[releases](https://github.com/tendermint/tendermint/releases) instead.
+[releases](https://github.com/shapeshift/tendermint/releases) instead.
 
 Tendermint has been in the production of private and public environments, most
 notably the blockchains of the Cosmos Network. we haven't released v1.0 yet
@@ -158,18 +158,18 @@ for-profit entity that also maintains [tendermint.com](https://tendermint.com).
 [smr]: https://en.wikipedia.org/wiki/State_machine_replication
 [Blockchain]: https://en.wikipedia.org/wiki/Blockchain
 [version-badge]: https://img.shields.io/github/tag/tendermint/tendermint.svg
-[version-url]: https://github.com/tendermint/tendermint/releases/latest
+[version-url]: https://github.com/shapeshift/tendermint/releases/latest
 [api-badge]: https://camo.githubusercontent.com/915b7be44ada53c290eb157634330494ebe3e30a/68747470733a2f2f676f646f632e6f72672f6769746875622e636f6d2f676f6c616e672f6764646f3f7374617475732e737667
-[api-url]: https://pkg.go.dev/github.com/tendermint/tendermint
+[api-url]: https://pkg.go.dev/github.com/shapeshift/tendermint
 [go-badge]: https://img.shields.io/badge/go-1.18-blue.svg
 [go-url]: https://github.com/moovweb/gvm
 [discord-badge]: https://img.shields.io/discord/669268347736686612.svg
 [discord-url]: https://discord.gg/cosmosnetwork
 [license-badge]: https://img.shields.io/github/license/tendermint/tendermint.svg
-[license-url]: https://github.com/tendermint/tendermint/blob/main/LICENSE
-[sg-badge]: https://sourcegraph.com/github.com/tendermint/tendermint/-/badge.svg
-[sg-url]: https://sourcegraph.com/github.com/tendermint/tendermint?badge
-[tests-url]: https://github.com/tendermint/tendermint/actions/workflows/tests.yml
-[tests-badge]: https://github.com/tendermint/tendermint/actions/workflows/tests.yml/badge.svg?branch=main
-[lint-badge]: https://github.com/tendermint/tendermint/actions/workflows/lint.yml/badge.svg
-[lint-url]: https://github.com/tendermint/tendermint/actions/workflows/lint.yml
+[license-url]: https://github.com/shapeshift/tendermint/blob/main/LICENSE
+[sg-badge]: https://sourcegraph.com/github.com/shapeshift/tendermint/-/badge.svg
+[sg-url]: https://sourcegraph.com/github.com/shapeshift/tendermint?badge
+[tests-url]: https://github.com/shapeshift/tendermint/actions/workflows/tests.yml
+[tests-badge]: https://github.com/shapeshift/tendermint/actions/workflows/tests.yml/badge.svg?branch=main
+[lint-badge]: https://github.com/shapeshift/tendermint/actions/workflows/lint.yml/badge.svg
+[lint-url]: https://github.com/shapeshift/tendermint/actions/workflows/lint.yml

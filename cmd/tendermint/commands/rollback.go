@@ -8,10 +8,10 @@ import (
 
 	dbm "github.com/tendermint/tm-db"
 
-	cfg "github.com/tendermint/tendermint/config"
-	"github.com/tendermint/tendermint/libs/os"
-	"github.com/tendermint/tendermint/state"
-	"github.com/tendermint/tendermint/store"
+	cfg "github.com/shapeshift/tendermint/config"
+	"github.com/shapeshift/tendermint/libs/os"
+	"github.com/shapeshift/tendermint/state"
+	"github.com/shapeshift/tendermint/store"
 )
 
 var RollbackStateCmd = &cobra.Command{

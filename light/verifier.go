@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"time"
 
-	tmmath "github.com/tendermint/tendermint/libs/math"
-	"github.com/tendermint/tendermint/types"
+	tmmath "github.com/shapeshift/tendermint/libs/math"
+	"github.com/shapeshift/tendermint/types"
 )
 
 var (

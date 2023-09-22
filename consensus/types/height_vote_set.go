@@ -6,11 +6,11 @@ import (
 	"strings"
 	"sync"
 
-	tmjson "github.com/tendermint/tendermint/libs/json"
-	tmmath "github.com/tendermint/tendermint/libs/math"
-	"github.com/tendermint/tendermint/p2p"
-	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
-	"github.com/tendermint/tendermint/types"
+	tmjson "github.com/shapeshift/tendermint/libs/json"
+	tmmath "github.com/shapeshift/tendermint/libs/math"
+	"github.com/shapeshift/tendermint/p2p"
+	tmproto "github.com/shapeshift/tendermint/proto/tendermint/types"
+	"github.com/shapeshift/tendermint/types"
 )
 
 type RoundVoteSet struct {

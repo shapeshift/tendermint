@@ -9,16 +9,16 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	abci "github.com/tendermint/tendermint/abci/types"
-	"github.com/tendermint/tendermint/crypto/ed25519"
-	cryptoenc "github.com/tendermint/tendermint/crypto/encoding"
-	"github.com/tendermint/tendermint/crypto/tmhash"
-	tmrand "github.com/tendermint/tendermint/libs/rand"
-	"github.com/tendermint/tendermint/privval"
-	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
-	"github.com/tendermint/tendermint/rpc/client"
-	rpctest "github.com/tendermint/tendermint/rpc/test"
-	"github.com/tendermint/tendermint/types"
+	abci "github.com/shapeshift/tendermint/abci/types"
+	"github.com/shapeshift/tendermint/crypto/ed25519"
+	cryptoenc "github.com/shapeshift/tendermint/crypto/encoding"
+	"github.com/shapeshift/tendermint/crypto/tmhash"
+	tmrand "github.com/shapeshift/tendermint/libs/rand"
+	"github.com/shapeshift/tendermint/privval"
+	tmproto "github.com/shapeshift/tendermint/proto/tendermint/types"
+	"github.com/shapeshift/tendermint/rpc/client"
+	rpctest "github.com/shapeshift/tendermint/rpc/test"
+	"github.com/shapeshift/tendermint/types"
 )
 
 // For some reason the empty node used in tests has a time of

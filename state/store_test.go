@@ -10,15 +10,15 @@ import (
 
 	dbm "github.com/tendermint/tm-db"
 
-	abci "github.com/tendermint/tendermint/abci/types"
-	cfg "github.com/tendermint/tendermint/config"
-	"github.com/tendermint/tendermint/crypto"
-	"github.com/tendermint/tendermint/crypto/ed25519"
-	tmrand "github.com/tendermint/tendermint/libs/rand"
-	tmstate "github.com/tendermint/tendermint/proto/tendermint/state"
-	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
-	sm "github.com/tendermint/tendermint/state"
-	"github.com/tendermint/tendermint/types"
+	abci "github.com/shapeshift/tendermint/abci/types"
+	cfg "github.com/shapeshift/tendermint/config"
+	"github.com/shapeshift/tendermint/crypto"
+	"github.com/shapeshift/tendermint/crypto/ed25519"
+	tmrand "github.com/shapeshift/tendermint/libs/rand"
+	tmstate "github.com/shapeshift/tendermint/proto/tendermint/state"
+	tmproto "github.com/shapeshift/tendermint/proto/tendermint/types"
+	sm "github.com/shapeshift/tendermint/state"
+	"github.com/shapeshift/tendermint/types"
 )
 
 func TestStoreLoadValidators(t *testing.T) {

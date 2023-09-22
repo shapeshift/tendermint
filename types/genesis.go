@@ -8,12 +8,12 @@ import (
 	"os"
 	"time"
 
-	"github.com/tendermint/tendermint/crypto"
-	tmbytes "github.com/tendermint/tendermint/libs/bytes"
-	tmjson "github.com/tendermint/tendermint/libs/json"
-	tmos "github.com/tendermint/tendermint/libs/os"
-	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
-	tmtime "github.com/tendermint/tendermint/types/time"
+	"github.com/shapeshift/tendermint/crypto"
+	tmbytes "github.com/shapeshift/tendermint/libs/bytes"
+	tmjson "github.com/shapeshift/tendermint/libs/json"
+	tmos "github.com/shapeshift/tendermint/libs/os"
+	tmproto "github.com/shapeshift/tendermint/proto/tendermint/types"
+	tmtime "github.com/shapeshift/tendermint/types/time"
 )
 
 const (

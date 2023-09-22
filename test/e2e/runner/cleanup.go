@@ -6,8 +6,8 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/tendermint/tendermint/libs/log"
-	e2e "github.com/tendermint/tendermint/test/e2e/pkg"
+	"github.com/shapeshift/tendermint/libs/log"
+	e2e "github.com/shapeshift/tendermint/test/e2e/pkg"
 )
 
 // Cleanup removes the Docker Compose containers and testnet directory.

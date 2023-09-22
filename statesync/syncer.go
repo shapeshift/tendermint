@@ -7,16 +7,16 @@ import (
 	"fmt"
 	"time"
 
-	abci "github.com/tendermint/tendermint/abci/types"
-	"github.com/tendermint/tendermint/config"
-	"github.com/tendermint/tendermint/libs/log"
-	tmsync "github.com/tendermint/tendermint/libs/sync"
-	"github.com/tendermint/tendermint/light"
-	"github.com/tendermint/tendermint/p2p"
-	ssproto "github.com/tendermint/tendermint/proto/tendermint/statesync"
-	"github.com/tendermint/tendermint/proxy"
-	sm "github.com/tendermint/tendermint/state"
-	"github.com/tendermint/tendermint/types"
+	abci "github.com/shapeshift/tendermint/abci/types"
+	"github.com/shapeshift/tendermint/config"
+	"github.com/shapeshift/tendermint/libs/log"
+	tmsync "github.com/shapeshift/tendermint/libs/sync"
+	"github.com/shapeshift/tendermint/light"
+	"github.com/shapeshift/tendermint/p2p"
+	ssproto "github.com/shapeshift/tendermint/proto/tendermint/statesync"
+	"github.com/shapeshift/tendermint/proxy"
+	sm "github.com/shapeshift/tendermint/state"
+	"github.com/shapeshift/tendermint/types"
 )
 
 const (

@@ -10,13 +10,13 @@ import (
 
 	dbm "github.com/tendermint/tm-db"
 
-	"github.com/tendermint/tendermint/abci/example/kvstore"
-	"github.com/tendermint/tendermint/libs/log"
-	"github.com/tendermint/tendermint/light"
-	"github.com/tendermint/tendermint/light/provider"
-	httpp "github.com/tendermint/tendermint/light/provider/http"
-	dbs "github.com/tendermint/tendermint/light/store/db"
-	rpctest "github.com/tendermint/tendermint/rpc/test"
+	"github.com/shapeshift/tendermint/abci/example/kvstore"
+	"github.com/shapeshift/tendermint/libs/log"
+	"github.com/shapeshift/tendermint/light"
+	"github.com/shapeshift/tendermint/light/provider"
+	httpp "github.com/shapeshift/tendermint/light/provider/http"
+	dbs "github.com/shapeshift/tendermint/light/store/db"
+	rpctest "github.com/shapeshift/tendermint/rpc/test"
 )
 
 // Automatically getting new headers and verifying them.

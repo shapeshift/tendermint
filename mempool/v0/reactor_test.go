@@ -14,17 +14,17 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/tendermint/tendermint/abci/example/kvstore"
-	abci "github.com/tendermint/tendermint/abci/types"
-	cfg "github.com/tendermint/tendermint/config"
-	"github.com/tendermint/tendermint/libs/log"
-	tmrand "github.com/tendermint/tendermint/libs/rand"
-	"github.com/tendermint/tendermint/mempool"
-	"github.com/tendermint/tendermint/p2p"
-	"github.com/tendermint/tendermint/p2p/mock"
-	memproto "github.com/tendermint/tendermint/proto/tendermint/mempool"
-	"github.com/tendermint/tendermint/proxy"
-	"github.com/tendermint/tendermint/types"
+	"github.com/shapeshift/tendermint/abci/example/kvstore"
+	abci "github.com/shapeshift/tendermint/abci/types"
+	cfg "github.com/shapeshift/tendermint/config"
+	"github.com/shapeshift/tendermint/libs/log"
+	tmrand "github.com/shapeshift/tendermint/libs/rand"
+	"github.com/shapeshift/tendermint/mempool"
+	"github.com/shapeshift/tendermint/p2p"
+	"github.com/shapeshift/tendermint/p2p/mock"
+	memproto "github.com/shapeshift/tendermint/proto/tendermint/mempool"
+	"github.com/shapeshift/tendermint/proxy"
+	"github.com/shapeshift/tendermint/types"
 )
 
 const (
@@ -67,7 +67,7 @@ func TestReactorBroadcastTxsMessage(t *testing.T) {
 	waitForTxsOnReactors(t, txs, reactors)
 }
 
-// regression test for https://github.com/tendermint/tendermint/issues/5408
+// regression test for https://github.com/shapeshift/tendermint/issues/5408
 func TestReactorConcurrency(t *testing.T) {
 	config := cfg.TestConfig()
 	const N = 2
@@ -268,7 +268,7 @@ func TestMempoolIDsPanicsIfNodeRequestsOvermaxActiveIDs(t *testing.T) {
 // TODO: This test tests that we don't panic and are able to generate new
 // PeerIDs for each peer we add. It seems as though we should be able to test
 // this in a much more direct way.
-// https://github.com/tendermint/tendermint/issues/9639
+// https://github.com/shapeshift/tendermint/issues/9639
 func TestDontExhaustMaxActiveIDs(t *testing.T) {
 	config := cfg.TestConfig()
 	const N = 1

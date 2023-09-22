@@ -11,13 +11,13 @@ import (
 
 	dbm "github.com/tendermint/tm-db"
 
-	abcitypes "github.com/tendermint/tendermint/abci/types"
-	tmcfg "github.com/tendermint/tendermint/config"
-	prototmstate "github.com/tendermint/tendermint/proto/tendermint/state"
-	blockmocks "github.com/tendermint/tendermint/state/indexer/mocks"
-	"github.com/tendermint/tendermint/state/mocks"
-	txmocks "github.com/tendermint/tendermint/state/txindex/mocks"
-	"github.com/tendermint/tendermint/types"
+	abcitypes "github.com/shapeshift/tendermint/abci/types"
+	tmcfg "github.com/shapeshift/tendermint/config"
+	prototmstate "github.com/shapeshift/tendermint/proto/tendermint/state"
+	blockmocks "github.com/shapeshift/tendermint/state/indexer/mocks"
+	"github.com/shapeshift/tendermint/state/mocks"
+	txmocks "github.com/shapeshift/tendermint/state/txindex/mocks"
+	"github.com/shapeshift/tendermint/types"
 )
 
 const (

@@ -9,19 +9,19 @@ import (
 
 	"github.com/gogo/protobuf/proto"
 
-	tmcon "github.com/tendermint/tendermint/consensus"
-	cstypes "github.com/tendermint/tendermint/consensus/types"
-	"github.com/tendermint/tendermint/libs/bits"
-	tmevents "github.com/tendermint/tendermint/libs/events"
-	tmjson "github.com/tendermint/tendermint/libs/json"
-	"github.com/tendermint/tendermint/libs/log"
-	tmsync "github.com/tendermint/tendermint/libs/sync"
-	"github.com/tendermint/tendermint/p2p"
-	tmcons "github.com/tendermint/tendermint/proto/tendermint/consensus"
-	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
-	sm "github.com/tendermint/tendermint/state"
-	"github.com/tendermint/tendermint/types"
-	tmtime "github.com/tendermint/tendermint/types/time"
+	tmcon "github.com/shapeshift/tendermint/consensus"
+	cstypes "github.com/shapeshift/tendermint/consensus/types"
+	"github.com/shapeshift/tendermint/libs/bits"
+	tmevents "github.com/shapeshift/tendermint/libs/events"
+	tmjson "github.com/shapeshift/tendermint/libs/json"
+	"github.com/shapeshift/tendermint/libs/log"
+	tmsync "github.com/shapeshift/tendermint/libs/sync"
+	"github.com/shapeshift/tendermint/p2p"
+	tmcons "github.com/shapeshift/tendermint/proto/tendermint/consensus"
+	tmproto "github.com/shapeshift/tendermint/proto/tendermint/types"
+	sm "github.com/shapeshift/tendermint/state"
+	"github.com/shapeshift/tendermint/types"
+	tmtime "github.com/shapeshift/tendermint/types/time"
 )
 
 const (

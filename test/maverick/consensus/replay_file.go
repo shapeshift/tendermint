@@ -12,14 +12,14 @@ import (
 
 	dbm "github.com/tendermint/tm-db"
 
-	cfg "github.com/tendermint/tendermint/config"
-	tmcon "github.com/tendermint/tendermint/consensus"
-	"github.com/tendermint/tendermint/libs/log"
-	tmos "github.com/tendermint/tendermint/libs/os"
-	"github.com/tendermint/tendermint/proxy"
-	sm "github.com/tendermint/tendermint/state"
-	"github.com/tendermint/tendermint/store"
-	"github.com/tendermint/tendermint/types"
+	cfg "github.com/shapeshift/tendermint/config"
+	tmcon "github.com/shapeshift/tendermint/consensus"
+	"github.com/shapeshift/tendermint/libs/log"
+	tmos "github.com/shapeshift/tendermint/libs/os"
+	"github.com/shapeshift/tendermint/proxy"
+	sm "github.com/shapeshift/tendermint/state"
+	"github.com/shapeshift/tendermint/store"
+	"github.com/shapeshift/tendermint/types"
 )
 
 const (

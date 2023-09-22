@@ -5,16 +5,16 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/tendermint/tendermint/libs/bytes"
-	"github.com/tendermint/tendermint/libs/log"
-	tmpubsub "github.com/tendermint/tendermint/libs/pubsub"
-	tmquery "github.com/tendermint/tendermint/libs/pubsub/query"
-	nm "github.com/tendermint/tendermint/node"
-	rpcclient "github.com/tendermint/tendermint/rpc/client"
-	"github.com/tendermint/tendermint/rpc/core"
-	ctypes "github.com/tendermint/tendermint/rpc/core/types"
-	rpctypes "github.com/tendermint/tendermint/rpc/jsonrpc/types"
-	"github.com/tendermint/tendermint/types"
+	"github.com/shapeshift/tendermint/libs/bytes"
+	"github.com/shapeshift/tendermint/libs/log"
+	tmpubsub "github.com/shapeshift/tendermint/libs/pubsub"
+	tmquery "github.com/shapeshift/tendermint/libs/pubsub/query"
+	nm "github.com/shapeshift/tendermint/node"
+	rpcclient "github.com/shapeshift/tendermint/rpc/client"
+	"github.com/shapeshift/tendermint/rpc/core"
+	ctypes "github.com/shapeshift/tendermint/rpc/core/types"
+	rpctypes "github.com/shapeshift/tendermint/rpc/jsonrpc/types"
+	"github.com/shapeshift/tendermint/types"
 )
 
 /*
