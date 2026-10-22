@@ -17,7 +17,7 @@ Execute the following within this directory (the same directory as the
 
 ```bash
 # Create a virtual environment into which to install your dependencies
-python3 -m venv .venv
+python3.11 -m venv .venv
 
 # Activate the virtual environment
 source .venv/bin/activate

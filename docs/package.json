@@ -19,5 +19,8 @@
     "postbuild": "./post.sh"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "overrides": {
+    "markdown-it": "14.3.3"
+  }
 }
